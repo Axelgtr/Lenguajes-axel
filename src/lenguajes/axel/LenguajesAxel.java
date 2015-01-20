@@ -16,6 +16,6 @@ public class LenguajesAxel {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("MI PRIMER PROGRAMA DE JAVA II");
+        System.out.println("Linea modificada");
     
 }}
