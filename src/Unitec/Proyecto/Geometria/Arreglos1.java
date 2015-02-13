@@ -40,6 +40,15 @@ public class Arreglos1 {
             
         }
         
+        
+        
+        /*
+                                //for mejorado
+                
+                                    for (int algo:x){
+                                    System.out.println (algo);
+                                       }
+        */
 
         
     }
