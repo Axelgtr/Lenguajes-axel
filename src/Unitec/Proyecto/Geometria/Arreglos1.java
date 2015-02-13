@@ -34,7 +34,7 @@ public class Arreglos1 {
         
         
         //ITERAR....CICLAR O HACER EL RECORRIDO CON EL CICLO FOR ↓↓↓
-        
+        //ciclo normal
         for (int i =0; i<x.length; i++){   /*Ajusta al tamaño del arreglo el.....  """LENGTH""  */
             System.out.println (x[i]);
             
