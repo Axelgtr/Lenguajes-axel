@@ -16,9 +16,9 @@ public class AplicacionIMC {
         IMC xxx= new IMC();
         //IMC se le llama instancia, lo que esta a la derecha del = 
         //izquieda referencia
-        float resultado = 
-       xxx.calcular(1.68f, 86);
-        System.out.println("Tu imc es: " +resultado);
+      //  float resultado = 
+      // xxx.calcular(1.68f, 86);
+        //System.out.println("Tu imc es: " +resultado);
                 
     }
     
