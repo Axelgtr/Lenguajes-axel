@@ -12,8 +12,11 @@ public class Cuadrado {
      * @param lado El parametro que debes ingresar en el valor del lado de tu cuadrado  ↓↓↓↓
      */
    
-    public Cuadrado (float lado) {//aqui se declara un contructor
-    this.lado = lado;
+    
+    
+    public Cuadrado (float lado) throws NumeroNoNegativoException {//aqui se declara un contructor
+    /*validacion*/ ValidarValorNoNegativo.validar(lado);
+        this.lado = lado;//asignacion
     
     }
     public Cuadrado(){}
