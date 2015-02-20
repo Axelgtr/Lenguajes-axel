@@ -1,0 +1,21 @@
+PASOS PARA CREAR UNA EXCEPCION
+
+1) cREAR LA CLASE SIGUIENDO LA CONVENCION DE NOMBRES
+PARA LA CONVENCION, VERIFICAR QUE VA A VALIDAD LA EXCEPCION ( En este caso... Un numero nooo negativo)
+en este caso NUMERO NO NEGATIVO, y darle ese nombre seguido de la palabla excepcion
+NumeroNoNegativoException
+
+////////////////////////////////////////////////////////////////
+//CODIGO
+public class NumeroNoNegativoException extends Exception {
+    //extends.........hereda a la clase excepcion
+    public NumeroNoNegativoException(){
+        super("Lo siento pero no acepto valores negativos");// 
+    }
+}
+_________________________________________________________________________________________________________________
+
+2) EN UNA CLASE SEPARADA CREAR UNA CLASE VALIDAR
+ValidarValorNoNegativo
+
+//el main se ejecuta primero por que es STATIC
