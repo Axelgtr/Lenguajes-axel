@@ -1,0 +1,19 @@
+Examen 5 de marzo
+
+Excepciones de tipo checked
+Todas las excepciones heredan de la clase throwable
+
+
+            ___________________________________________                
+            |                throwable                |
+            ___________________________________________
+            
+            
+    ↓↓↓                                                           ↓↓↓
+Metodos mas usados              ↓↓↓                               Exception
+                                Error                            ↓↓↓↓↓↓↓
+                                
+____________________  
+getMessage()
+Getmessagelocation
+____________________
