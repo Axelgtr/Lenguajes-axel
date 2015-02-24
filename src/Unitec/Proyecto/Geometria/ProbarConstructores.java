@@ -20,7 +20,7 @@ public class ProbarConstructores {
         int i2=300;
         
         //casting (float)  ↓↓↓
-        Cuadrado c =new Cuadrado ((float)dedos);
+     //   Cuadrado c =new Cuadrado ((float)dedos);
         
         
         

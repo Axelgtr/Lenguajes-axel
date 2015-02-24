@@ -16,6 +16,7 @@ public class Cuadrado {
     
     public Cuadrado (float lado) throws NumeroNoNegativoException {//aqui se declara un contructor
     /*validacion*/ ValidarValorNoNegativo.validar(lado);
+                    ValidarValores.validarRango(lado);
         this.lado = lado;//asignacion
     
     }
