@@ -9,7 +9,7 @@ package Unitec.Proyecto.Geometria;
  *
  * @author T-107
  */
-public class Circulo {
+public class Circulo implements Superficies {
     private float radio;
 
     public Circulo(float radio) {
@@ -27,4 +27,5 @@ public class Circulo {
     public void setRadio(float radio) {
         this.radio = radio;
     }
-}
+
+    
