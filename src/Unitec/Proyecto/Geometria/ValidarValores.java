@@ -10,8 +10,10 @@ package Unitec.Proyecto.Geometria;
  * @author T-107
  */
 public class ValidarValores {
+    
+    
     public static void validarValorNoNegativo(float valor)throws ValorNegativoException{
-        if(valor<0)throw new ();
+        if(valor<0)throw new ValorNegativoException();
     }
     
     public static void validarRango(float valor)throws FueraDeRangoException{

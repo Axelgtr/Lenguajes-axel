@@ -2,10 +2,7 @@
 package Unitec.Proyecto.Geometria;
 
 
-public class Cuadrado {
-    
-    private float lado;
-    //constructor por defecto public Cuadrado(){}
+//constructor por defecto public Cuadrado(){}
         
     /**
      * Este contructor tiene un arguimento de topo flotante
@@ -14,27 +11,41 @@ public class Cuadrado {
    
     
     
-    public Cuadrado (float lado) throws NumeroNoNegativoException {//aqui se declara un contructor
-    /*validacion*/ ValidarValorNoNegativo.validar(lado);
-                    ValidarValores.validarRango(lado);
-        this.lado = lado;//asignacion
+    public class Cuadrado {
     
-    }
-    public Cuadrado(){}
-    
-    
-     public void setLado(float lado) {
+private float lado;
+
+/**
+ * Este constructor tiene un argumento de tipo flotante
+ * @param lado  El parametro que debes ingresar es el valor
+ * del lado de tu cuadrado
+ */
+    public Cuadrado(float lado) throws FueraDeRangoException, ValorNegativoException {
+               ValidarValores.validarValorNoNegativo(lado);
+        ValidarValores.validarRango(lado);
+ 
         this.lado = lado;
     }
     
-      public float getLado() {
+    public Cuadrado(){
+        
+    }
+   
+  
+    public float getLado() {
         return lado;
     }
-      
-    public float calcularArea(){
-        float area=lado*lado;
-        return area;
+
+    public void setLado(float lado) throws FueraDeRangoException, ValorNegativoException {
+        ValidarValores.validarValorNoNegativo(lado);
+        ValidarValores.validarRango(lado);
+       
+        this.lado = lado;
+    }
+    
+      public float calcularArea() {
+  float area=lado*lado;
+  return area;
     }
 
-      
 }
