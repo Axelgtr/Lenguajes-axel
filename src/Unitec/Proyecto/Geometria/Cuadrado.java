@@ -11,7 +11,7 @@ package Unitec.Proyecto.Geometria;
    
     
     
-    public class Cuadrado {
+    public class Cuadrado  implements Superficies {
     
 private float lado;
 
@@ -44,7 +44,9 @@ private float lado;
     }
     
       public float calcularArea() {
-  float area=lado*lado;
+  
+          float area=lado*lado;
+          System.out.print("El area del cuadrado es: ");
   return area;
     }
 
