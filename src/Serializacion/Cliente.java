@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *paso 1)   A LAS CLASES A SELIALIZAR IMPLEMENTAR LA INTEFAZ SERIALIZABLE
+* PASO 2)   cREAR LA CLASE COMPRESORA (que guarde) Y DESCOMPORTURA (que lee) "PARA LAS CLASES DEL PASO 1 "
  */
 package Serializacion;
 
