@@ -79,7 +79,7 @@ public class Buscar extends javax.swing.JFrame {
         }catch(Exception ex){
         
     }//GEN-LAST:event_jButton1ActionPerformed
-
+//
     /**
      * @param args the command line arguments
      */
